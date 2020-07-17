@@ -57,7 +57,7 @@ const renderRecipe = recipe => {
             </a>
         </li>
     `;
-    elements.searchResList.insertAdjacentElement('beforeend', markup);
+    elements.searchResList.insertAdjacentHTML('beforeend', markup);
 };
 
 // type: 'prev' or 'next'
