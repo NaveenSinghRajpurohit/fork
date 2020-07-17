@@ -11,7 +11,7 @@ export const clearResults = () => {
     elements.searchResPages.innerHTML = '';
 };
 
-export const highLightSelected = id => {
+export const highlightSelected = id => {
     const resultsArr = Array.from(document.querySelectorAll('.results__link'));
     resultsArr.forEach(el => {
         el.classList.remove('results__link--active');
